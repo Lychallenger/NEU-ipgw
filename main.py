@@ -11,10 +11,10 @@ def login(username, password):
     login_button = driver.find_element_by_id('index_login_btn')
 
     name_input.clear()
-    name_input.send_keys(username)  # 填写用户名
+    name_input.send_keys(username)  #
     time.sleep(0.2)
     pass_input.clear()
-    pass_input.send_keys(password)  # 填写密码
+    pass_input.send_keys(password)  # 
     time.sleep(0.2)
     login_button.click()            # 点击登录
 
@@ -27,6 +27,6 @@ def login(username, password):
     print('login success')
 
 if __name__ == "__main__":
-    user = "1801789"
-    pw = "12345678"
+    user = "1801789"#用户名
+    pw = "12345678"#登录密码
     login(user, pw)
