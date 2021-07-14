@@ -9,8 +9,9 @@
 
 # 另一种方法
 在linux环境下且安装了docker的条件下：
-1.使用docker镜像geekvan/network:latest(可以从dockerhub中拉取，在没有网络的情况下从百度网盘中下载tar包用docker命令解压)
-2.sudo docker run -it  geekvan/network bash
-3.cd root 
-4.修改login.py文件中的登录账号和密码
-5.python login.py
+1.使用docker镜像geekvan/network:latest(可以从dockerhub中拉取，在没有网络的情况下从百度网盘中下载tar包用docker命令解压)  
+2.sudo docker run -it  geekvan/network bash  
+3.cd root  
+4.修改login.py文件中的登录账号和密码  
+5.python login.py  
+百度网盘链接: https://pan.baidu.com/s/1S36oMxWGiXRHJPZZSxzq4A 提取码: 1zyb 
